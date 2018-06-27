@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_hovered="true">
+        <objectAnimator
+            android:propertyName="app:cardElevation"
+            android:valueFrom="7dp"/>
+    </item>
+    <item android:state_hovered="false">
+        <objectAnimator
+            android:propertyName="app:cardElevation"
+            android:valueFrom="3dp"/>
+    </item>
+
+    <item android:state_focused="true">
+        <objectAnimator
+            android:propertyName="android:layout_margin"
+            android:valueFrom="7dp"/>
+    </item>
+    <item android:state_pressed="false">
+        <objectAnimator
+            android:propertyName="android:layout_margin"
+            android:valueFrom="3dp"/>
+    </item>
+</selector>
