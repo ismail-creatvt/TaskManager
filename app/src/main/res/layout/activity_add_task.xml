@@ -46,17 +46,9 @@
         android:layout_marginRight="30dp"
         android:layout_marginTop="15dp"/>
 
-    <Spinner
-        android:id="@+id/task_status_input"
-        android:layout_below="@id/pick_time"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginTop="15dp" />
     <LinearLayout
         android:id="@+id/btn_panel"
-        android:layout_below="@id/task_status_input"
+        android:layout_below="@id/pick_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
